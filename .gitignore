@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and tooling
+dist/
+build/
+coverage/
+.vite/
+.next/
+*.tsbuildinfo
+*.log
+logs/
+.cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Local databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite3-wal
+*.sqlite3-shm
+uploads/
+storage/
+tmp/
+temp/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Archives and local backups
+*.zip
+*.tar
+*.gz
+*.bak
+*.backup
